@@ -1,0 +1,30 @@
+# Session 5 Q&A: Properties and Packaging
+
+You're now getting into how real-world applications are managed. Hardcoding values is fine for a quick test, but it's not sustainable. This session showed you the professional way to handle configuration.
+
+Let's review.
+
+---
+
+### Questions for You:
+
+1.  **Why Externalize?:** Why did we move configuration like the port number into an external `.properties` file? What is the main benefit of this "separation of config from code"?
+
+2.  **The Magic Syntax:** How does a Mule application know to use a value from a properties file? What was the special syntax we used in our HTTP Listener configuration to reference the `http.port` property?
+
+3.  **Maven Package:** We ran the `mvn clean package` command. What two things did this command do, and what was the final result that appeared in our `target` folder?
+
+4.  **Deploying to Production:** Imagine you have tested your application in your local environment on port 8081. Now, you need to deploy the *exact same application* to a production server where it must run on port 80. What is the only thing you would need to change to make this work?
+
+5.  **What is Maven?:** We used Maven to package the application. Besides packaging, what is Maven's primary role in a Java-based project like our Mule application?
+
+---
+
+### Your Turn!
+
+Any questions about properties, environments, or building applications?
+*   Are you curious about how to manage properties for different environments (e.g., dev, test, prod) at the same time?
+*   Do you have questions about the `pom.xml` file?
+*   Want to know more about what a "build lifecycle" is?
+
+Let me know!

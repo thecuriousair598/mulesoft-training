@@ -1,0 +1,30 @@
+# Session 3 Q&A: Transforming Data
+
+You've now tackled one of the most powerful and common features in MuleSoft: DataWeave. Being able to transform data from one format to another is at the heart of integration.
+
+Let's review the concepts from this session.
+
+---
+
+### Questions for You:
+
+1.  **What is DataWeave?:** In your own words, what is DataWeave and what is its main purpose in a Mule application?
+
+2.  **The Need for Transformation:** We read a CSV file and outputted a JSON array. Why is transforming data from one format to another such a common requirement in the world of IT and integration?
+
+3.  **Anatomy of a Script:** Our DataWeave script had a header (e.g., `%dw 2.0 output application/json`) and a body. The body did a few things: parsing, mapping, and filtering. Can you explain what each of those steps accomplished?
+
+4.  **The Resources Folder:** We stored the sample CSV file in the `src/main/resources` folder. Why this specific folder? What does "classpath" mean in this context?
+
+5.  **Changing the Source:** Imagine the source data was an XML file instead of a CSV. What parts of our Mule flow would need to change, and what parts would likely stay the same?
+
+---
+
+### Your Turn!
+
+DataWeave can be a big topic. What questions do you have?
+*   Are you curious about other formats DataWeave can handle? (Hint: It can handle almost anything!)
+*   Did the syntax of the DataWeave script make sense to you?
+*   Do you want to know more about how the "preview" pane in the Transform Message component works?
+
+Don't hesitate to ask!

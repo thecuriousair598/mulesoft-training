@@ -1,0 +1,30 @@
+# Session 1 Q&A: "Hello Mule"
+
+Well done on building your first Mule application! This session was all about the fundamentals. Let's take a moment to review and solidify what we've learned.
+
+Think about the following questions. There are no right or wrong answers for some of them; the goal is to get you thinking about the "why" behind what we did.
+
+---
+
+### Questions for You:
+
+1.  **The HTTP Listener:** What is the purpose of the HTTP Listener component in our Mule flow? What were the key pieces of information we configured on it?
+
+2.  **JSON:** We returned a JSON string: `{"message":"G’day from Mule"}`. What is JSON, and why do you think it's so commonly used for APIs?
+
+3.  **Postman's Role:** We used Postman to test our application. What role does a tool like Postman play in the API development lifecycle? Could we have tested our app without it?
+
+4.  **0.0.0.0 vs. localhost:** The console showed our app was deployed and the listener started on `0.0.0.0:8081`. What is the difference between listening on `0.0.0.0` versus listening on `localhost` (or `127.0.0.1`)?
+
+5.  **Making a Change:** If you wanted to change the response message from "G’day from Mule" to "Hello World!", which component in the Anypoint Studio flow would you need to edit?
+
+---
+
+### Your Turn!
+
+Now it's over to you. Do you have any questions about what we covered? For example:
+*   Are you curious about what any of the other components in the palette do?
+*   Do you wonder what would happen if you tried to run two apps on the same port?
+*   Is there anything about the Anypoint Studio interface you'd like to know more about?
+
+Ask away! There are no silly questions.

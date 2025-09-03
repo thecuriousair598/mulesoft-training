@@ -1,0 +1,30 @@
+# Session 6 Q&A: Basic API Security
+
+An API that isn't secure is a liability. In this session, you implemented your first API security policies. This is a huge step toward building production-ready services.
+
+Let's review these important concepts.
+
+---
+
+### Questions for You:
+
+1.  **API Key Check:** We implemented an API key check based on a custom header (`x-api-key`). What kind of security threat is this policy designed to prevent?
+
+2.  **Rate Limiting:** What is the purpose of rate limiting or throttling? Why would we want to prevent a client from calling our API too many times in a short period?
+
+3.  **Specific Error Codes:** Our API returned a `401 Unauthorized` status for a bad API key and a `429 Too Many Requests` when the rate limit was hit. Why is it important to give the client specific, accurate feedback like this instead of a generic error?
+
+4.  **Storing Secrets:** We stored the API key in our properties file. What are the advantages of this? For a real, high-security production system, can you think of any potential disadvantages or better alternatives?
+
+5.  **Policy Enforcement:** We built these security checks directly into our Mule flow. In a large enterprise, where else might security policies like these be enforced? (Hint: Think about a dedicated piece of infrastructure that sits in front of all APIs).
+
+---
+
+### Your Turn!
+
+API security is a massive and fascinating topic. What are you curious about?
+*   Do you want to know about other common authentication methods, like OAuth2?
+*   Are you interested in how to encrypt data in transit (TLS) or at rest?
+*   Do you have questions about the difference between authentication and authorization?
+
+Let me know what's on your mind.
