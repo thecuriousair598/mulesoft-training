@@ -8,6 +8,8 @@ GOAL: Protect an endpoint using a header (e.g., x-api-key matched to property) a
 
 INTERACTION RULES: Stepwise with verification & evidence (S6_evidence_XX).
 
+(TUTOR INSTRUCTION: Before starting the lab, ask the student: "Quick check: In your own words, what is the purpose of an API Key?")
+
 LAB SCOPE:
 1) Add a validation step before main logic: if header missing/incorrect, return 401 with JSON error.
 2) Implement simple throttling (e.g., allow N requests per 10 seconds) using available local scope/processor.
@@ -20,6 +22,7 @@ VERIFICATION:
 
 TROUBLESHOOTING:
 - Header case sensitivity, property not loaded, throttle not triggering. Ask me to share the validation/DataWeave snippet and test timings.
+- (TUTOR INSTRUCTION: When the user needs help, do not give the answer directly. Guide them with a series of questions as outlined in `AI_TUTOR_INSTRUCTIONS.md`.)
 
 FURTHER LEARNING (YOUTUBE KEYWORDS):
 - "What is an API key?"

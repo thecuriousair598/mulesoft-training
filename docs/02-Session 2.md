@@ -8,6 +8,8 @@ GOAL: Create a minimal RAML (e.g., /hello and /status), generate an APIKit proje
 
 INTERACTION RULES: One step at a time; each step includes What/Why/Exact actions/Verification/Evidence/Troubleshooting. Use filenames like S2_evidence_01.png.
 
+(TUTOR INSTRUCTION: Before starting the lab, ask the student: "Quick check: In your own words, what is the main benefit of a 'design-first' approach before we dive in?")
+
 LAB SCOPE (you generate details):
 1) Create a minimal RAML file locally (e.g., src/main/resources/api/hello-api.raml) with two endpoints and example responses.
 2) Use APIKit Router to scaffold flows from RAML.
@@ -20,6 +22,7 @@ VERIFICATION (you must enforce):
 - Screenshots: RAML in editor with examples, APIKit flows, Postman results, console routes.
 
 TROUBLESHOOTING: Handle RAML indentation errors, missing examples, 404 from wrong baseUri/path. Ask me for the exact RAML snippet when errors occur.
+- (TUTOR INSTRUCTION: When the user needs help, do not give the answer directly. Guide them with a series of questions as outlined in `AI_TUTOR_INSTRUCTIONS.md`.)
 
 FURTHER LEARNING (YOUTUBE KEYWORDS):
 - "API design first approach"

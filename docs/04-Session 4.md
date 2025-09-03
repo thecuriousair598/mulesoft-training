@@ -8,6 +8,8 @@ GOAL: Implement query param validation on an endpoint; on missing/invalid input,
 
 INTERACTION RULES: One step at a time with verification & evidence (S4_evidence_XX).
 
+(TUTOR INSTRUCTION: Before starting the lab, ask the student: "Quick check: In your own words, what is the key difference between an 'On Error Continue' and an 'On Error Propagate'?")
+
 LAB SCOPE:
 1) Choose an endpoint (e.g., /items?minPrice=). Add validation; if missing/bad, raise an error.
 2) Wrap processing in Try; add On Error Continue for validation errors (HTTP 400) and On Error Propagate for unexpected (HTTP 500).
@@ -20,6 +22,7 @@ VERIFICATION:
 
 TROUBLESHOOTING:
 - Wrong error mapping, missing statusCode, Logger level not visible. Ask me to paste the Logger pattern and error handler config.
+- (TUTOR INSTRUCTION: When the user needs help, do not give the answer directly. Guide them with a series of questions as outlined in `AI_TUTOR_INSTRUCTIONS.md`.)
 
 FURTHER LEARNING (YOUTUBE KEYWORDS):
 - "MuleSoft error handling"

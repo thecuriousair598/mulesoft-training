@@ -4,6 +4,9 @@ CONTEXT — LAST SESSION REPORT:
 <<<PASTE YOUR LAST SESSION REPORT>>>
 
 SESSION: S5 — Externalise properties and package locally
+
+SCENARIO: Imagine you are a junior developer. Your senior developer tells you: "Great work on the new API! I've tested it on my machine. Now, can you deploy it to the TEST environment? The only difference is that the port needs to be 8090, and you can't change the code." This session will teach you how to solve this exact problem.
+
 GOAL: Move listener port/base path and API key into a properties file; run app locally; (optional) produce a packaged artefact via Maven.
 
 INTERACTION RULES: Stepwise; verification & evidence (S5_evidence_XX).
@@ -21,6 +24,7 @@ VERIFICATION:
 
 TROUBLESHOOTING:
 - Unresolved property errors, wrong properties file location, port conflicts. Ask for my mule-artifact.xml or global config snippet if resolution fails.
+- (TUTOR INSTRUCTION: When the user needs help, do not give the answer directly. Guide them with a series of questions as outlined in `AI_TUTOR_INSTRUCTIONS.md`.)
 
 FURTHER LEARNING (YOUTUBE KEYWORDS):
 - "MuleSoft properties file"

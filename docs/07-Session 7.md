@@ -8,6 +8,8 @@ GOAL: Build /orders (GET) and /orders (POST) storing/fetching JSON from a local 
 
 INTERACTION RULES: Stepwise with verification & evidence (S7_evidence_XX). One step, then pause.
 
+(TUTOR INSTRUCTION: Before starting the lab, generate a simple text diagram to illustrate the two main data flows for POST and GET, e.g., [Postman POST] -> [API] -> [Write to File] and [Postman GET] -> [API] -> [Read from File].)
+
 LAB SCOPE:
 1) RAML: define /orders GET & POST with example payloads and simple model (id, item, qty).
 2) Implement POST: validate fields; append order to a JSON file in /data; return 201 with new id.
@@ -21,6 +23,7 @@ VERIFICATION:
 
 TROUBLESHOOTING:
 - File locking/permissions, JSON merge issues, id collisions. Ask me for the file path and sample payloads used.
+- (TUTOR INSTRUCTION: When the user needs help, do not give the answer directly. Guide them with a series of questions as outlined in `AI_TUTOR_INSTRUCTIONS.md`.)
 
 FURTHER LEARNING (YOUTUBE KEYWORDS):
 - "REST API GET vs POST"
